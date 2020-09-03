@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "EVURLCache"
-s.version      = "3.6.0"
+s.version      = "3.6.1"
 s.summary      = "NSURLCache subclass for handeling all web requests that use NSURLRequest"
-s.description  = "This is a NSURLCache subclass for handeling all web requests that use NSURLRequest. (This includes UIWebView)"
+s.description  = "This is a NSURLCache subclass for handeling all web requests that use NSURLRequest. (This includes MKWebView)"
 s.homepage     = "https://github.com/evermeer/EVURLCache"
 
 
@@ -81,7 +81,7 @@ s.source_files  = 'EVURLCache/Pod/*'
 #  the lib prefix of their name.
 #
 
-s.ios.frameworks = "Foundation", "MobileCoreServices"
+s.ios.frameworks = "Foundation", "CoreServices"
 s.osx.frameworks = "Foundation", "CoreServices"
 
 # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5716422501728D00A9A8DB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5716412501728D00A9A8DB /* WebKit.framework */; };
 		7F06B2451E38C6FF00925047 /* EVURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F06B2441E38C6FF00925047 /* EVURLProtocol.swift */; };
 		7F4A0D4F1BEE481400059923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A0D4E1BEE481400059923 /* AppDelegate.swift */; };
 		7F4A0D511BEE481400059923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A0D501BEE481400059923 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		05EE26FC72733C70FFA7F10C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		144C37334311C3DEAAAE46C3 /* Pods-OSXcompileTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXcompileTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSXcompileTest/Pods-OSXcompileTest.release.xcconfig"; sourceTree = "<group>"; };
+		3C5716412501728D00A9A8DB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		7566676951737F7DE11E9363 /* Pods_EVURLCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVURLCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F06B2441E38C6FF00925047 /* EVURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EVURLProtocol.swift; path = Pod/EVURLProtocol.swift; sourceTree = "<group>"; };
 		7F4A0D4B1BEE481400059923 /* EVURLCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVURLCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5716422501728D00A9A8DB /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +124,7 @@
 		19413DFDF2B04B13ECBD1B5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C5716412501728D00A9A8DB /* WebKit.framework */,
 				05EE26FC72733C70FFA7F10C /* Pods.framework */,
 				7566676951737F7DE11E9363 /* Pods_EVURLCache.framework */,
 				D81C12CCF04AF23300938DC5 /* Pods_OSXcompileTest.framework */,
@@ -564,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -614,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

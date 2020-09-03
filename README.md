@@ -24,7 +24,7 @@
 
 ## What is this?
  
-This is a NSURLCache subclass for handeling all web requests that use NSURLRequest. (This includes UIWebView)
+This is a NSURLCache subclass for handeling all web requests that use NSURLRequest. (This includes MKWebView)
 
 The EVURLCache is meant for handeling the following caching strategies:
 
@@ -73,7 +73,7 @@ If you are not sure what files you would need to include in the PreCache folder,
 
 ## Compatibility
 
-This cache should work with all download libraries that use a NSURLRequest for downloading from the web (Like AFNetworking and Alamofire). It also works for every request in a UIWebview.
+This cache should work with all download libraries that use a NSURLRequest for downloading from the web (Like AFNetworking and Alamofire). It also works for every request in a MKWebView.
 
 ## Limitations
 

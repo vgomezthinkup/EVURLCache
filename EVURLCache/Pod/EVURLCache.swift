@@ -10,7 +10,7 @@ import Foundation
 //import ReachabilitySwift
 
 #if os(iOS)
-    import MobileCoreServices
+    import CoreServices
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
   switch (lhs, rhs) {
   case let (l?, r?):
